@@ -20,7 +20,7 @@ function responseData(result) {
     // setInner("pesan", result.message);
     if (result.message == "Selamat Datang") {
         setCookieWithExpireHour("token", result.token, 2);
-        alert("Login Successfully " + result.message)
+        alert("Berhasil Login " + result.message)
         window.location.href = "dashboard.html";
     } else {
         alert("Gagal Masuk " + "wrong username or password")
