@@ -5,7 +5,7 @@ import { setCookieWithExpireHour } from "https://jscroot.github.io/cookie/croot.
 export default function PostSignUp() {
     let target_url = "https://asia-southeast2-proven-wavelet-401905.cloudfunctions.net/loginsaw";
     let tokenkey = "token";
-    let tokenvalue = "bfa11161503b48d65cd58d12492174c58ba255559dd54fc758e74c6c20835e65";
+    let tokenvalue = "35d6bc6b05405cdec30c8ec6ac840ae25c892b5c18de59b605a6f82c4f1f1d9b";
     let datainjson = {
         "username": getValue("username"),
         "password": getValue("password")
